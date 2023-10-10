@@ -21,7 +21,7 @@ Log in to your WordPress admin dashboard.
 Follow these steps to display custom support buttons on your posts and fixed pages.
 
 1. go to the edit screen of the post or fixed page. 
-Paste the shortcode `[support_button]` anywhere you want. 
+Paste the shortcode `[custom_like_button]` anywhere you want. 
 2. apply additional CSS if necessary to customize the appearance. 
 
 By following these steps, you can set up your shortcode like button and display it on your posts and fixed pages.
