@@ -14,12 +14,10 @@ This is a WordPress plugin that allows you to easily add a "Like" button using a
 
 ## Usage
 
-To use this plugin, follow these steps
-
-Log in to your WordPress admin dashboard.
+To use this plugin, follow these steps Log in to your WordPress admin dashboard.
+activate the plugin from the WordPress admin panel.
 
 Follow these steps to display button on your posts and fixed pages.
-
 1. go to the edit screen of the post or fixed page. 
 Paste the shortcode `[custom_like_button]` anywhere you want. 
 2. apply additional CSS if necessary to customize the appearance. 
