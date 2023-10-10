@@ -50,7 +50,7 @@ We welcome contributions from the community. If you wish to contribute, please f
 - GitHub: 
 https://github.com/IROpany
 
-#### About code generation
+## About code generation
 
 All of the code for this project was generated using a natural language processing AI model called Chat GPT. In creating the code, Chat GPT generated the code based on the developer's instructions, but the final code quality and security-related inertia checks are incomplete.
 
