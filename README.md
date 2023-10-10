@@ -40,9 +40,10 @@ We welcome contributions from the community. If you wish to contribute, please f
 
 ## Version History
 
-- **2.0** (initial release)
-  - Added basic support button functionality.
+**2.0** (Release of version 2.0)
 
+  - Added a "Like" button function to place buttons anywhere.
+      
 ## Author Information
 
 - Author: Iro
