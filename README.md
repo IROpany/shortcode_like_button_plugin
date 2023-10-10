@@ -24,8 +24,7 @@ Follow these steps to display custom support buttons on your posts and fixed pag
 Paste the shortcode `[custom_like_button]` anywhere you want. 
 2. apply additional CSS if necessary to customize the appearance. 
 
-By following these steps, you can set up your shortcode like button and display it on your posts and fixed pages.
-
+By following these steps, you can display the like button anywhere.
 
 ## License
 
