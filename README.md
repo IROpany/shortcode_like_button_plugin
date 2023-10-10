@@ -5,7 +5,7 @@
 
 ### Shortcode Like Button WordPress Plugin
 
-It is a WordPress plugin that allows you to easily add the like button shortcode anywhere you want.
+This is a WordPress plugin that allows you to easily add a "Like" button using a shortcode wherever you want.
 
 ## Install
 
