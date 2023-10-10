@@ -18,7 +18,7 @@ To use this plugin, follow these steps
 
 Log in to your WordPress admin dashboard.
 
-Follow these steps to display custom button on your posts and fixed pages.
+Follow these steps to display button on your posts and fixed pages.
 
 1. go to the edit screen of the post or fixed page. 
 Paste the shortcode `[custom_like_button]` anywhere you want. 
