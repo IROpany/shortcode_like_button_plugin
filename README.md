@@ -54,6 +54,6 @@ All of the code for this project was generated using a natural language processi
 
 Security Considerations: Chat GPT follows certain rules when generating code, but does not guarantee completely secure code generation.
 
-Transparency of code generation: Providing information about code generation and clearly stating how the code was generated is an effort to increase the transparency of the project. We aim to provide project users and the community with details about the code generation process to increase confidence in the project.
+Transparency of code generation: Providing information about code generation and clearly stating how the code was generated is an effort to increase the transparency of the project. I aim to provide project users and the community with details about the code generation process to increase confidence in the project.
 
 Please note that the project is open source and welcomes feedback from the community that can contribute to improving the code and its security. We hope you will help us improve the quality of the project by reporting bugs and security issues and contributing to the code.
