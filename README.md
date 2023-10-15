@@ -30,7 +30,7 @@ This plugin is licensed under [GPLv2 or later].
 
 ## Security and Vulnerability
 
-Please report any security vulnerabilities or issues with this plugin by [create issue] in the GitHub repository.
+Please report any security vulnerabilities or issues with this plugin by [creating an issue](https://github.com/IROpany/support_button/issues).
 
 ## Contributions
 
