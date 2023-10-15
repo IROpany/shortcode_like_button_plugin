@@ -46,9 +46,9 @@ This project is licensed under [license name](https://github.com/IROpany/support
 
 Thank you for the contribution of the contributors. Your cooperation will contribute to the growth of the project.
 
-[Code Style Guide](https://github.com/IROpany/support_button/blob/main/CODE_OF_CONDUCT.md)
+[https://github.com/IROpany/support_button/blob/main/CODE_OF_CONDUCT.md]
 
-[License name]:GPL-2.0 license
+[GPL-2.0 license]
 
 
 ### 8. A link
