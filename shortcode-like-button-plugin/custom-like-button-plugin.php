@@ -6,7 +6,7 @@ Version: 2.0
 Author: Iro
 */
 
-// スクリプトとスタイルを読み込む
+// スクリプトを読み込む
 function custom_like_button_enqueue_scripts() {
     wp_enqueue_script('jquery'); // jQueryを読み込む
     wp_enqueue_script('custom-like-button', plugin_dir_url(__FILE__) . 'js/custom-like-button.js', array('jquery'), '1.0.0', true); // カスタムスクリプトを読み込む
