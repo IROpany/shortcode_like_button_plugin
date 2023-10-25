@@ -34,7 +34,7 @@ Please report any security vulnerabilities or issues with this plugin by [creati
 
 ## Contributions
 
-We welcome contributions from the community. If you wish to contribute, please follow the [Contribution Guidelines].
+We welcome contributions from the community. If you wish to contribute, please follow the [Contribution Guidelines](https://github.com/IROpany/shortcode-slider-posts-plugin/blob/main/CONTRIBUTING.md).
 
 ## Version History
 
