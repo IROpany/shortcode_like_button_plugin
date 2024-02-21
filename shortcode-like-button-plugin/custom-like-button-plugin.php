@@ -6,6 +6,13 @@ Version: 2.0
 Author: Iro
 */
 
+// ファイルへの直接アクセスした場合は終了する
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; 
+}
+
+
+
 // スクリプトを読み込む
 function custom_like_button_enqueue_scripts() {
     wp_enqueue_script('jquery'); // jQueryを読み込む
