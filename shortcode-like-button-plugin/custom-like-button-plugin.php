@@ -11,8 +11,6 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit; 
 }
 
-
-
 // スクリプトを読み込む
 function custom_like_button_enqueue_scripts() {
     wp_enqueue_script('jquery'); // jQueryを読み込む
@@ -37,8 +35,8 @@ function custom_like_button_shortcode($atts) {
 
     // ボタンのHTMLを生成
     $button_html = '
-        <p>いいねの数: <span class="like-count-' . $post_id . '">' . $like_count . '</span></p>
-        <button class="my-like-button" data-post-id="' . $post_id . '" data-action="increment_likes">いいね</button>
+        <p>いいねの数: <span class="like-count-' . esc_attr($post_id) . '">' . esc_html($like_count) . '</span></p>
+        <button class="my-like-button" data-post-id="' . esc_attr($post_id) . '" data-action="increment_likes">' . esc_html__('いいね', 'custom-like-button') . '</button>
     ';
 
     return $button_html;
@@ -49,7 +47,7 @@ add_shortcode('custom_like_button', 'custom_like_button_shortcode');
 function increment_likes() {
     check_ajax_referer('custom-like-button-nonce', 'security');
 
-    $post_id = intval($_POST['post_id']);
+    $post_id = absint($_POST['post_id']); // ポストIDをサニタイズ
     $like_count = get_post_meta($post_id, 'custom_like_count', true);
     $like_count++;
 
@@ -67,3 +65,4 @@ function init_like_count() {
     add_post_meta($post_id, 'custom_like_count', 0, true);
 }
 add_action('wp', 'init_like_count');
+?>
