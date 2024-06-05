@@ -5,6 +5,8 @@ Description: Adds a Shortcode like button to posts.
 Version: 2.0
 Author: Chick
 Author URI: https://iropany.com/Chick/
+Domain Path: languages
+Text Domain: wp-total-hacks
 */
 
 // ファイルへの直接アクセスした場合は終了する
