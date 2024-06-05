@@ -3,7 +3,8 @@
 Plugin Name: Shortcode Like Button Plugin
 Description: Adds a Shortcode like button to posts.
 Version: 2.0
-Author: Iro
+Author: Chick
+Author URI: https://iropany.com/Chick/
 */
 
 // ファイルへの直接アクセスした場合は終了する
