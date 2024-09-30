@@ -11,13 +11,21 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Setup PHP and Composer
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Install PHP and Composer
       uses: shivammathur/setup-php@v2
       with:
         php-version: '8.0'
         tools: composer:v2
 
-    - name: Install dependencies
+    - name: Change directory to shortcode-like-button-plugin
+      run: cd shortcode-like-button-plugin
+
+    - name: Run Composer install
       run: composer install
 
     - name: Run Composer audit
