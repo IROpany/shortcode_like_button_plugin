@@ -11,9 +11,6 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
       
-    - name: Change directory to repository root
-      run: cd $GITHUB_WORKSPACE
-      
     - name: Install PHP and Composer
       uses: shivammathur/setup-php@v2
       with:
