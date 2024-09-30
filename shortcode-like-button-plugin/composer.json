@@ -1,7 +1,7 @@
 {
     "name": "iropany/shortcode-like-button-plugin",
-    "description": "Adds a like button to posts.",
-    "version": "1.0",
+    "description": "Adds a Shortcode like button to posts.",
+    "version": "2.0",
     "authors": [
         {
             "name": "Chick",
