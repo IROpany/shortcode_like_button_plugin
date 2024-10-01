@@ -1,4 +1,4 @@
-# shortcode-like-button-plugin
+# Shortcode Like Button Plugin
 ## Description
 
 いいねボタンを、ショートコードで任意の場所に配置するプラグインです。クリックするとカウントされるボタンになっています。
