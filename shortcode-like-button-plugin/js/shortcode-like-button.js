@@ -7,11 +7,11 @@ jQuery(document).ready(function($) {
         // サーバーにいいねを送信してデータベースを更新
         $.ajax({
             type: 'POST',
-            url: custom_like_button_params.ajax_url,
+            url: shortcode_like_button_params.ajax_url,
             data: {
                 action: $(this).data('action'),
                 post_id: postId,
-                security: custom_like_button_params.security
+                security: shortcode_like_button_params.security
             },
             success: function(response) {
                 likeCountElement.text(currentCount + 1);
